@@ -5,3 +5,7 @@ email varchar(20));
 
 alter table stuinfo
 add phone int after city;
+alter table stuinfo2
+rename to stuinfo3;
+
+drop table stuinfo3;
